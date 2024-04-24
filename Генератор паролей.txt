@@ -1,0 +1,9 @@
+let passAlphabet = "abcdefghijklmnopqrstuvwxyz0123456789";
+let randomString = "";
+
+while (randomString.length < 17) {
+  let randomIndex = Math.floor(Math.random() * passAlphabet.length);
+  randomString += passAlphabet[randomIndex];
+}
+
+console.log(randomString);

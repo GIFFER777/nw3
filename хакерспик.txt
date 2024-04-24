@@ -1,0 +1,20 @@
+var input = "fedorchenko ilya sergeevich";
+var output = "";
+
+var hackerAlphabet = {
+  a: "4",
+  e: "3",
+  i: "1",
+  o: "0",
+};
+
+for (let i = 0; i < input.length; i++) {
+  let char = input[i];
+  if (hackerAlphabet[char]) {
+    output += hackerAlphabet[char];
+  } else {
+    output += char;
+  }
+}
+
+console.log(output);

@@ -1,0 +1,5 @@
+let myName = "Илья";
+
+for (let i = 0; i < myName.length; i++) {
+  console.log("В моем имени есть буква " + myName[i] + ".");
+}
